@@ -11,5 +11,10 @@ We made the implementation openly available here on GitHub, and developed the al
 ## Implementation
 We have uploaded Python scripts that can be used to reproduce our results.  Unfortunately the data cannot be released for the public but we expect our results to be reproducible.  
 
+The repository is organized into two subfolders:
+* The 'research' subfolder holds the code for training, validation, and testing that was utilized for the paper's publication.
+* The 'production' subfolder houses the finalized inference code along with the model weights.
+
+
 More details to come
 

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+source /data/datasets/shared/rpizarro/miniconda3/bin/activate
+conda activate artfct_env
+
+
+
+python noise.mc_summarize_prediction.py valid 002-E1ramp_100_data_800_to_20000_ep0100 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/002-E1ramp_100_data_800_to_20000_ep0100/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 002-E1ramp_020_data_800_to_20000_ep0060 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/002-E1ramp_020_data_800_to_20000_ep0060/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 002-E1ramp_005_data_800_to_20000_ep0053 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/002-E1ramp_005_data_800_to_20000_ep0053/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 001-random_constant_clean_098_ep0050 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/001-random_constant_clean_098_ep0050/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 001-initialized_constant_clean_098_ep0050 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/001-initialized_constant_clean_098_ep0050/valid_summary_stats_by_epoch.out
+
+
+python noise.mc_summarize_prediction.py valid 002-E1ramp_100_data_800_to_20000_ep0100_N2 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/002-E1ramp_100_data_800_to_20000_ep0100_N2/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 002-E1ramp_005_data_800_to_20000_ep0053_N2 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/002-E1ramp_005_data_800_to_20000_ep0053_N2/valid_summary_stats_by_epoch.out
+python noise.mc_summarize_prediction.py valid 001-initialized_constant_clean_098_ep0050_N2 > ../prediction/rap_NN008_multiple_artifact/clean_percent_098/XV0/nb_classes_02/nb_samples_factor_01.00/001-initialized_constant_clean_098_ep0050_N2/valid_summary_stats_by_epoch.out
+
+
+
+conda deactivate
+conda deactivate
+
+
