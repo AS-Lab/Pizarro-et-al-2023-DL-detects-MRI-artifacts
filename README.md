@@ -16,5 +16,3 @@ The repository is organized into two subfolders:
 * The 'production' subfolder houses the finalized inference code along with the model weights.
 
 
-More details to come
-
