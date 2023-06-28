@@ -22,5 +22,3 @@ We have uploaded Python scripts that can be used to reproduce our results.  Unfo
 The repository is organized into two subfolders:
 * The 'research' subfolder holds the code for training, validation, and testing that was utilized for the paper's publication.
 * The 'production' subfolder houses the finalized inference code along with the model weights.
-![image](https://github.com/AS-Lab/Pizarro-et-al-2023-DL-detects-MRI-artifacts/assets/32275274/7681a00d-dc2a-49fa-bb95-ed93cbd91fa6)
-
