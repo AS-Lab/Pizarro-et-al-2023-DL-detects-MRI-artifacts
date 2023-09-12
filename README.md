@@ -2,8 +2,8 @@
 
 This repository includes the software used to implement the analysis reported in:
 
-Pizarro R, Assemlal HE, Boopathy S, Jubault T, Antel S, Arnold D, Shmuel A (2023) Detecting artifacts in brain MRI with deep learning and uncertainty estimation: application to large imbalanced databases. 
-Journal: Medical Image Analysis.
+[Pizarro R, Assemlal HE, Boopathy S, Jubault T, Antel S, Arnold D, Shmuel A (2023) Deep learning, data ramping, and uncertainty estimation for detecting artifacts in large, imbalanced databases of MRI images. 
+Journal: Medical Image Analysis.](https://www.sciencedirect.com/science/article/abs/pii/S1361841523002025)
 
 Please cite our paper if you use the software.
 
