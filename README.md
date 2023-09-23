@@ -2,8 +2,8 @@
 
 This repository includes the software used to implement the analysis reported in:
 
-[Pizarro R, Assemlal HE, Boopathy S, Jubault T, Antel S, Arnold D, Shmuel A (2023) Deep learning, data ramping, and uncertainty estimation for detecting artifacts in large, imbalanced databases of MRI images. 
-Journal: Medical Image Analysis.](https://www.sciencedirect.com/science/article/abs/pii/S1361841523002025)
+[Pizarro R, Assemlal HE, Boopathy S, Jubault T, Antel S, Arnold D, Shmuel A (2023) Deep learning, data ramping, and uncertainty estimation for detecting artifacts in large, imbalanced databases of MRI images. Medical Image Analysis
+Medical Image Analysis, 90:102942. https://doi.org/10.1016/j.media.2023.102942]
 
 Please cite our paper if you use the software.
 
